@@ -1,0 +1,9 @@
+{
+"TOTAL_MEMORY": 268435456,
+"dataUrl": "pixeljamBuildWeb.data.unityweb",
+"asmCodeUrl": "pixeljamBuildWeb.asm.code.unityweb",
+"asmMemoryUrl": "pixeljamBuildWeb.asm.memory.unityweb",
+"asmFrameworkUrl": "pixeljamBuildWeb.asm.framework.unityweb",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
