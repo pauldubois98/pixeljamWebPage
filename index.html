@@ -6,6 +6,7 @@
     <title>Unity WebGL Player | pixeljamGame</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="styles.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
@@ -13,13 +14,25 @@
     </script>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">pixeljamGame</div>
+      <div id="titles">
+          <h1>Scary Multiplayer Game</h1>
+          <h2>- a pixelJam game -</h2>
+          <h3>(2017)</h3>
       </div>
-    </div>
+
+      <div id="bg">
+        <div class="webgl-content">
+          <div id="gameContainer" style="width: 960px; height: 600px"></div>
+            <div class="footer">
+              <div class="webgl-logo"></div>
+                <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+              <div class="title">pixeljamGame</div>
+            </div>
+        </div>
+      </div>
+
+      <div id="sign">
+          <p>A game made by Derrick Goh Xin Deik, Terry Williams, and Paul Dubois</p>
+      </div>
   </body>
 </html>

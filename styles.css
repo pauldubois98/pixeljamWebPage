@@ -1,0 +1,34 @@
+body{
+    background-image: url(background.png);
+    background-attachment: fixed; /* Le fond restera fixe */
+}
+
+.webgl-content{
+
+}
+
+
+
+
+h1, h2, h3{
+    width: 100%;
+}
+p{
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+#titles{
+    color: white;
+    text-align: center;
+}
+#sign{
+    position: absolute;
+    bottom: -25em;
+    width: 100%;
+
+}
